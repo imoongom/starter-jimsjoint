@@ -106,6 +106,14 @@ interface Active_record {
     function some($what, $which);
 }
 
+
+
+
+
+
+
+
+
 /**
  * Generic data access model, for an RDB.
  *
@@ -264,6 +272,18 @@ class MY_Model extends CI_Model implements Active_Record {
     }
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 class MY_Model2 extends MY_Model {
 
